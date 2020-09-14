@@ -16,4 +16,4 @@ Some Visual Art. Could be good, could be bad, but they never carry any meaning.
 And most importantly: All those things are mixed and won't be sorted or ranked by any mean. Because this site is not built for anyone. This is a garbage-bin for no man.
 
 
-Thanks for your attention.
+Thanks again for your attention.
