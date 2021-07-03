@@ -8,10 +8,15 @@
     <div class="catalogue-line"></div>
 
     <p>
-      {% if post.excerpt_separator %}
-        {{ post.excerpt | strip_html }}
+    
+      {% if post.subtitle %}
+        {{ post.subtitle }}
       {% else %}
-        {{ post.content | strip_html | truncatewords: 30 }}
+        {% if post.excerpt_separator %}
+          {{ post.excerpt | strip_html }}
+        {% else %}
+          {{ post.content | strip_html | truncatewords: 30 }}
+        {% endif %}
       {% endif %}
     </p>
 
