@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="catalogue">
+<<<<<<< HEAD
   {% for post in paginator.posts %}
     {% if post.stickie != true %}
 	{% continue %}
@@ -41,9 +42,16 @@ layout: default
             {{ post.content | strip_html | truncatewords: 30 }}
 	  {% endif %}
         </p>
+=======
+  {% for post in site.posts %}
+    {% if post.sticky %}
+      {% include catalogue_item.html sticky='true' %}
+    {% endif %}
+  {% endfor %}
+>>>>>>> upstream/master
 
-      </div>
-    </a>
+  {% for post in paginator.posts %}
+    {% include catalogue_item.html %}
   {% endfor %}
 </div>
 

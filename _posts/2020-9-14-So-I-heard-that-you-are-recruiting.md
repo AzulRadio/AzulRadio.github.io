@@ -3,7 +3,7 @@ layout: post
 title: "[Pinned] So I heard that you are recruiting"
 subtitle: "May I make a suggestion?"
 author: "youhy"
-stickie: true
+sticky: true
 ---
 
 **Under Construction:** For now I'm just putting some links here until I finished my resume.
