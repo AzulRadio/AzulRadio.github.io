@@ -5,6 +5,6 @@ author: "youhy"
 permalink: /about/
 ---
 
-Hello stranger.
+你好，来访者。
 
-If you want to read more, please visit [Yugovlasia Club](https://yugovlasia.github.io/Yugovlasia/). 
+如果你想读一些别的，可以看看[南斯拉夫俱乐部](https://yugovlasia.github.io/Yugovlasia/)
